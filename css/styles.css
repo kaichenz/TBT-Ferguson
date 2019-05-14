@@ -1,0 +1,76 @@
+body{
+  background-image: url("../img/Background1.jpg");
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+}
+
+.title{
+  color: #47525E;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 92.5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.title2{
+  display: inline-block;
+  color: #47525E;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 45.5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.title3{
+  display: inline-block;
+  color: #47525E;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 45.5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.card{
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#Fix{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#Purchase{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#Signup{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+#Signin{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+    margin-left: 60px;
+}
