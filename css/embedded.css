@@ -1,0 +1,13 @@
+<script language="JavaScript" type="text/JavaScript">
+//
+function runWin(code) {
+    cod=document.all(code)
+    var code=cod.value;
+    if (code!=""){
+    var newwin=window.open('','',''); //variable newwin。
+    newwin.opener = null //
+    newwin.document.write(code); //
+    newwin.document.close();
+    }
+}
+</script>
