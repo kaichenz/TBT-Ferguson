@@ -53,20 +53,21 @@ body{
   text-align: center;
 }
 
-#Fix{
-  display: flex;
-  justify-content: center;
+.sharp {
+  border-radius: 0;
+  padding: 2% 0 2% 0;
+}
+
+.nav-btn{
   margin-top: 50px;
 }
 
-#Purchase{
-  display: flex;
-  justify-content: center;
+#Fix, #Purchase{
   margin-top: 50px;
 }
 
-#Fix .btn-block, #Purchase .btn-block {
-  width: 90%;
+#Fix .btn-block, #Purchase .btn-block, .select {
+  width: 85%;
 }
 
 #Signup{
