@@ -36,31 +36,36 @@
   </div>
 </div>
 
-<div class="card">
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Toilet</li> 
-    <li class="list-group-item">Sink</li> 
-    <li class="list-group-item">Bathtub</li>
-    <li class="list-group-item">Other</li>
-  </ul>
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="sink">Sink</a>
+</div>
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="toilet">Toilet</a>
+</div>
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="shower">Shower/Bathtub</a>
+</div>
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="other">Other</a>
 </div>
 
 <div class="container">
   <div class="row">
     <div class="col text-center">
-        <a href="room.html" class="btn btn-secondary btn-lg btn-block" role="button">Previous</a>
+        <a href="room.html" class="btn btn-secondary btn-lg btn-block nav-btn" role="button">Previous</a>
     </div>
     <div class="col text-center">
-      <button type="button" class="btn btn-secondary btn-lg btn-block" disabled>Next</button>
+      <a href="#" class="btn btn-secondary btn-lg btn-block nav-btn disabled" role="button" id="next">Next</a>
     </div>
   </div>
-
 </div>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/select_problem.js"></script>
 </body>
 
 </html>
