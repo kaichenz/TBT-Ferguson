@@ -5,13 +5,13 @@ $(document).ready(function () {
         $(this).addClass('active');
 
         if ($('#kitchen').hasClass('active')) {
-          $('#next').attr('href', 'kitchen.html');
+            $('#next').attr('href', 'kitchen.html');
         } else if ($('#laundry').hasClass('active')) {
-          $('#next').attr('href', 'laundry.html');
+            $('#next').attr('href', 'laundry.html');
         } else if ($('#bathroom').hasClass('active')) {
-          $('#next').attr('href', 'bathroom.html');
+            $('#next').attr('href', 'bathroom.html');
         } else if ($('#other_room').hasClass('active')) {
-          $('#next').attr('href', 'other_room.html');
+            $('#next').attr('href', 'other_room.html');
         } 
     });
 });

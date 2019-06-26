@@ -48,11 +48,6 @@ body{
   justify-content: center;
 }
 
-.card{
-  margin: 50px 25% 50px 25%;
-  text-align: center;
-}
-
 .sharp {
   border-radius: 0;
   padding: 2% 0 2% 0;
@@ -67,7 +62,7 @@ body{
 }
 
 #Fix .btn-block, #Purchase .btn-block, .select {
-  width: 85%;
+  width: 80%;
 }
 
 #Signup{

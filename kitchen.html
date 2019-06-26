@@ -36,22 +36,24 @@
   </div>
 </div>
 
-<div class="card">
-  <ul class="list-group list-group-flush">
-    <!-- Other option may be converted to a form element later on  -->
-    <li class="list-group-item">Dish Washer</li> 
-    <li class="list-group-item">Sink</li> 
-    <li class="list-group-item">Other:<br><input type="text" name ="txtOther" size="30" maxlength="80"/> </ul></li> 
-  </ul>
+
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="dish_washer">Dish Washer</a>
+</div>
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="sink">Sink</a>
+</div>
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="other">Other</a>
 </div>
 
 <div class="container">
   <div class="row">
     <div class="col text-center">
-        <a href="room.html" class="btn btn-secondary btn-lg btn-block" role="button">Previous</a>
+        <a href="room.html" class="btn btn-secondary btn-lg btn-block nav-btn" role="button">Previous</a>
     </div>
     <div class="col text-center">
-      <button type="button" class="btn btn-secondary btn-lg btn-block" disabled>Next</button>
+      <a href="#" class="btn btn-secondary btn-lg btn-block nav-btn disabled" role="button" id="next">Next</a>
     </div>
   </div>
 
@@ -63,6 +65,9 @@
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/select_problem.js"></script>
+
 </body>
 
 </html>
