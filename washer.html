@@ -36,32 +36,36 @@
   </div>
 </div>
 
-<div class="card">
-  <!-- Other option may be converted to a form element later on  -->
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Leaking</li> 
-    <li class="list-group-item">Drain</li> 
-    <li class="list-group-item">Intake</li>
-    <li class="list-group-item">Other:<br><input type="text" name ="txtOther" size="30" maxlength="80"/> </ul></li> 
-  </ul>
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="washer_leaking">Leaking</a>
+</div>
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="washer_drain">Drain</a>
+</div>
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="intake">Intake</a>
+</div>
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="other">Other</a>
 </div>
 
 <div class="container">
   <div class="row">
     <div class="col text-center">
-        <a href="javascript: history.go(-1)" class="btn btn-secondary btn-lg btn-block" role="button">Previous</a>
+        <a href="laundry.html" class="btn btn-secondary btn-lg btn-block nav-btn" role="button">Previous</a>
     </div>
     <div class="col text-center">
-      <button type="button" class="btn btn-secondary btn-lg btn-block" disabled>Next</button>
+      <a href="#" class="btn btn-secondary btn-lg btn-block nav-btn disabled" role="button" id="next">Next</a>
     </div>
   </div>
-
 </div>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/select_problem2.js"></script>
 </body>
 
 </html>

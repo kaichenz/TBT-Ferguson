@@ -36,15 +36,20 @@
   </div>
 </div>
 
-<div class="card">
-  <!-- Other option may be converted to a form element later on  -->
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Won't Flush</li> 
-    <li class="list-group-item">Overflow</li> 
-    <li class="list-group-item">Cracked</li>
-    <li class="list-group-item">Leaking</li>
-    <li class="list-group-item">Other:<br><input type="text" name ="txtOther" size="30" maxlength="80"/> </ul></li> 
-  </ul>
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="wont_flush">Won't Flush</a>
+</div>
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="overflow">Overflow</a>
+</div>
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="cracked">Cracked</a>
+</div>
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="toilet_leaking">Leaking</a>
+</div>
+<div class="container">
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="other">Other</a>
 </div>
 
 <div class="container">
@@ -64,6 +69,8 @@
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/select_problem2.js"></script>
 </body>
 
 </html>

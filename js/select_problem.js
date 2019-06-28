@@ -9,11 +9,11 @@ $(document).ready(function () {
         } else if ($('#sink').hasClass('active')) {
             $('#next').attr('href', 'sink.html');
         } else if ($('#washer').hasClass('active')){
-            $('#next').attr('href', 'washer.html')
+            $('#next').attr('href', 'washer.html');
         } else if ($('#toilet').hasClass('active')){
-            $('#next').attr('href', 'toilet.html')
+            $('#next').attr('href', 'toilet.html');
         } else if ($('#shower').hasClass('active')){
-            $('#next').attr('href', 'shower.html')
+            $('#next').attr('href', 'shower.html');
         } else if ($('#drain').hasClass('active') || 
                    $('#pipe').hasClass('active') || 
                    $('#water_heater').hasClass('active')){
