@@ -21,6 +21,8 @@ gem 'uglifier', '3.2.0'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '4.2.2'
+
+gem 'jquery-rails', '4.3.1'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '5.0.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -49,6 +51,10 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring', '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
+end
+
+group :production do
+  gem 'pg', '0.20.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
