@@ -1,0 +1,21 @@
+Started GET "/" for 127.0.0.1 at 2019-06-29 12:45:53 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/holst/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/holst/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 301ms (Views: 15.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-29 12:59:11 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/holst/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/holst/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (1.8ms)
+Completed 200 OK in 209ms (Views: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-29 12:59:17 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/holst/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/holst/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
