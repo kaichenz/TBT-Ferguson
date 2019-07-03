@@ -76,3 +76,85 @@ body{
   margin-top: 50px;
   margin-left: 15px;
 }
+body.Screen3{
+background-image: url("../img/SCREEN3.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+}
+
+body.Screen6{
+background-image: url("../img/SCREEN 6.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+}
+
+body.Screen5{
+background-image: url("../img/SCREEN 5.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+}
+
+body.Screen7{
+background-image: url("../img/SCREEN 7.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+}
+
+body.Screen8{
+background-image: url("../img/SCREEN 8.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+}
+body.Screen9{
+background-image: url("../img/SCREEN 9.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+}
+
+body.Screen10{
+background-image: url("../img/SCREEN 10.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+}
