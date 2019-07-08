@@ -65,6 +65,14 @@ body{
   width: 80%;
 }
 
+#Yes-Access, #No-Access{
+  margin-top: 50px;
+}
+
+#Yes-Access .btn-block, #No-Access .btn-block, .select {
+  width: 80%;
+}
+
 #Signup{
   text-align: center;
   margin-top: 50px;

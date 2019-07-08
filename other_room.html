@@ -13,8 +13,8 @@
     <title>TBT Ferguson</title>
 </head>
 
-<body>
-
+<body class = "Screen3">
+<!-- SCREEN3.jpg -->
 <nav class="navbar navbar-light navbar-expand-sm fixed-top">
   <div class="container">
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
@@ -32,41 +32,36 @@
 
 <div class="container">
   <div class="title3">
-    Where is the problem?
+    Please enter which room the problem is in
   </div>
 </div>
 
 <div class="container">
-  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="drain">Drain</a>
-</div>
-<div class="container">
-  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="pipe">Pipe</a>
-</div>
-<div class="container">
-  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="water_heater">Water Heater</a>
-</div>
-<div class="container">
-  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="other">Other</a>
+  <!-- Other option may be converted to a form element later on  -->
+  
+  <a class="btn btn-light btn-lg btn-block sharp select" role="button" id="other">Other: <input type="text" name="txtOther" size="30" maxlength="80"></a>
+
+     
+  
 </div>
 
 <div class="container">
   <div class="row">
     <div class="col text-center">
-        <a href="room.html" class="btn btn-secondary btn-lg btn-block nav-btn" role="button">Previous</a>
+        <a href="javascript: history.go(-1)" class="btn btn-secondary btn-lg btn-block nav-btn" role="button">Previous</a>
     </div>
     <div class="col text-center">
-      <a href="#" class="btn btn-secondary btn-lg btn-block nav-btn disabled" role="button" id="next">Next</a>
+      <button type="button" class="btn btn-secondary btn-lg btn-block nav-btn disabled">Next</button>
     </div>
   </div>
 </div>
+
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-<script type="text/javascript" src="js/select_problem.js"></script>
 </body>
 
 </html>

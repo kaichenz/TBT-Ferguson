@@ -21,7 +21,8 @@ $(document).ready(function () {
             $('#water').hasClass('active') ||
             $('#heater').hasClass('active') ||
             $('#water_pressure').hasClass('active') ||
-            $('#shower_drain').hasClass('active')){
+            $('#shower_leaking').hasClass('active') ||
+            $('#shower_drain').hasClass('active')) {
 
             $('#next').attr('href', 'access.html');
         } else if ($('#other').hasClass('active')){
