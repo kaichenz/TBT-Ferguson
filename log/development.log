@@ -36,3 +36,43 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 3704ms (Views: 3530.9ms)
 
 
+Started GET "/" for ::1 at 2019-07-14 17:05:36 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 9548ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'activestorage' with type 'application/javascript'
+Checked in these paths: 
+  /home/holst/Desktop/TBT-Ferguson/app/assets/config
+  /home/holst/Desktop/TBT-Ferguson/app/assets/images
+  /home/holst/Desktop/TBT-Ferguson/app/assets/javascripts
+  /home/holst/Desktop/TBT-Ferguson/app/assets/stylesheets
+  /home/holst/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/jquery-rails-4.3.5/vendor/assets/javascripts
+  /home/holst/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/holst/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actioncable-5.1.7/lib/assets/compiled
+  /home/holst/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionview-5.1.7/lib/assets/compiled
+  /home/holst/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/holst/Desktop/TBT-Ferguson/node_modules
+  /home/holst/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/popper_js-1.14.5/assets/javascripts
+  /home/holst/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-4.0.0/assets/stylesheets
+  /home/holst/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-4.0.0/assets/javascripts):
+    4:     <title>TBTFerguson</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:19
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2409911396155739089_70279324867120'
+Started GET "/" for ::1 at 2019-07-14 17:06:21 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1846ms (Views: 1345.1ms)
+
+
