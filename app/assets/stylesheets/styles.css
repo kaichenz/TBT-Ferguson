@@ -1,0 +1,169 @@
+body{
+  background-image: url("../assets/Background1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+}
+
+.title{
+  color: #47525E;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 92.5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.title2{
+  display: inline-block;
+  color: #47525E;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 45.5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.title3{
+  display: inline-block;
+  color: #47525E;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 45.5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.sharp {
+  border-radius: 0;
+  padding: 2% 0 2% 0;
+}
+
+.nav-btn{
+  margin-top: 50px;
+}
+
+#Fix, #Purchase{
+  margin-top: 50px;
+}
+
+#Fix .btn-block, #Purchase .btn-block, .select {
+  width: 80%;
+}
+
+#Yes-Access, #No-Access{
+  margin-top: 50px;
+}
+
+#Yes-Access .btn-block, #No-Access .btn-block, .select {
+  width: 80%;
+}
+
+#Signup{
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 15px;
+}
+
+#Signin{
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+body.Screen3{
+background-image: url("../img/SCREEN3.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+}
+
+body.Screen6{
+background-image: url("../img/SCREEN 6.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+}
+
+body.Screen5{
+background-image: url("../img/SCREEN 5.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+}
+
+body.Screen7{
+background-image: url("../img/SCREEN 7.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+}
+
+body.Screen8{
+background-image: url("../img/SCREEN 8.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+}
+body.Screen9{
+background-image: url("../img/SCREEN 9.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+}
+
+body.Screen10{
+background-image: url("../img/SCREEN 10.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+}
