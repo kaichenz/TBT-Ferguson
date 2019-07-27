@@ -28,7 +28,7 @@ development:
   adapter: postgresql
   encoding: unicode
   database: tbt-ferguson_development
-  host: localhost
+  host: ''
   pool: 5
   username: tbt-ferguson
   password: <%= ENV['DB_PASSWORD'] %>
