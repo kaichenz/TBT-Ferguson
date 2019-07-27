@@ -1,2 +1,5 @@
 /config/application.yml
 .bundle/
+
+/tmp/*
+/log/*

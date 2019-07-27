@@ -408,3 +408,8 @@ Migrating to AddPasswordDisgestToUsers (20190727203253)
   [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(812822004910842570)[0m
   [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (48.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER($1) LIMIT $2[0m  [["email", "holst@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (39.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Gustav Holst"], ["email", "holst@example.com"], ["created_at", "2019-07-27 20:48:30.037799"], ["updated_at", "2019-07-27 20:48:30.037799"], ["password_digest", "$2a$10$3yz.eNODKYG4txCcerI/DuU5Neg87Xy8qFtqFQZcvz7seDyPz25wu"]]
+  [1m[35m (51.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (12.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "holst@example.com"], ["LIMIT", 1]]
